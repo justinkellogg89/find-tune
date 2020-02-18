@@ -14,9 +14,11 @@
 
 ## RESOURCES PLANNED FOR USE
 
-### DEEZER API
+### HTML/CSS/JavaScript/jQuery
 
-### BULMA
+### Deezer API
+
+### Bulma
 
 ## GOALS
 
