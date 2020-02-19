@@ -1,29 +1,30 @@
 html {
-  background-image: url(https://i.pinimg.com/originals/e0/d6/6a/e0d66a03fdf7fecce02b8b76e141d325.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
+    background-color: black;
 }
 
 #searchLabel {
-  font-size: 40px;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+    font-size: 40px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #add-music {
-  margin-top: 2px;
+    margin-top: 2px;
 }
 
 #searchForm {
-  margin-top: 25px;
-  margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 100px;
 }
 
 .searchResults {
-  color: white;
+    color: white;
 }
+
+p {
+    padding-top: 10px;
+}
+
 
 /* @media only screen and (max-width: 750px) {
     body {
