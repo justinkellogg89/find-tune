@@ -22,22 +22,28 @@
 
     <div class="container">
         <div class="row">
-            <div class="column is-full" id="homepageHeader">
-                <img src="assets/img/project-1-logo.png" alt="Music Playlist Generator Header" />
-            </div>
-        </div>
-        <form class="row" id="searchForm">
-            <div class="column is-full">
-                <div class="control">
-                    <label id="searchLabel">Search for an Artist:</label>
-                    <input class="input" type="text" placeholder="Text input" id="music-input" />
-                    <button class="button" id="add-music" type="submit">Submit</button>
+            <div class="columns is-centered">
+                <div class="column is-half" id="homepageHeader">
+                    <img id="logo" src="assets/img/project-1-logo.png" alt="Music Playlist Generator Header" />
                 </div>
             </div>
-        </form>
+        </div>
+        <div class="row" id="searchForm">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div class="control">
+                        <label id="searchLabel">Search for an Artist:</label>
+                        <input class="input" type="text" placeholder="" id="music-input" />
+                        <button class="button" id="add-music">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row searchResults">
-            <div class="column is-full">
-                <div id="music-list"></div>
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div id="music-list"></div>
+                </div>
             </div>
         </div>
     </div>
