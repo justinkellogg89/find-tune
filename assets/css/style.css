@@ -1,0 +1,21 @@
+html {
+    background-color: black;
+}
+
+#searchLabel {
+    font-size: 40px;
+    color: white;
+}
+
+#add-music {
+    margin-top: 2px;
+
+}
+
+#searchForm {
+    margin-top: 25px;
+}
+
+.searchResults{
+    color: white;
+}
