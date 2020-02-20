@@ -39,14 +39,19 @@ $("#add-music").on("click", function(event) {
 
             $("#music-list").append(
 
-                $("<p>").text("Title: " + songName),
-                $("<p>").text("album: " + albumName),
-                audioElement
+                $("<div>")
+                .addClass(".test")
+                .append(
+                    $("<p>").text("Title: " + songName),
+                    $("<p>").text("album: " + albumName),
+                    audioElement
+                )
 
             )
 
 
         }
+        $("music-input").empty();
 
     });
 
