@@ -1,27 +1,22 @@
-
-
 $(document).ready(function(){
-	var searchName;
-	var settings = {
-		"async": true,
-		"crossDomain": true,
-		"url": "https://giphy.p.rapidapi.com/v1/gifs/search?q=",
-		"method": "GET",
-		"headers": {
-			"x-rapidapi-host": "giphy.p.rapidapi.com",
-			"x-rapidapi-key": "a14db8f8acmsh96bcdd8b84302d1p1c95dajsnfc135164e36b"
-		}
-	}
+	var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=XW8IXY3rbQTNxW06roR2PAhak0yRewph&q=" + searchName + "&limit=1&offset=0&rating=R&lang=en";
 
+	
+	
 	$("#add-music").on("click", function(event) {
 		event.preventDefault();
-		$("#artist-gif").empty();
+		$("#gif-image").empty();
 		searchName = $("#music-input").val().trim();
-		settings.url = "https://giphy.p.rapidapi.com/v1/gifs/search?q=" + searchName;
-
-	$.ajax(settings).done(function (response) {
-		console.log(response);
-	});}
-
-
+		
+		$.ajax({
+			url: queryURL,
+			method: "GET"
+		}).then(function(response) {
+			console.log(response);
+			
+		});
+		
+		
+	});
+});
 
