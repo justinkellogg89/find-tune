@@ -47,6 +47,7 @@ $("#add-music").on("click", function(event) {
 
 
         }
+        $("music-input").empty();
 
     });
 
