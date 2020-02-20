@@ -9,8 +9,13 @@
     <title>Music Playlist Generator</title>
 </head>
 
-<body>
 
+
+
+
+
+<body>
+    <!--Header Title/Logo-->
     <div class="container">
         <div class="row">
             <div class="columns is-centered">
@@ -19,18 +24,25 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="searchForm">
-            <div class="columns is-centered">
-                <div class="column is-half">
-                    <div class="control">
-                        <label id="searchLabel">Search for an Artist:</label>
-                        <input class="input" type="text" placeholder="" id="music-input" />
-                        <button class="button" id="add-music">Submit</button>
-                    </div>
+    </div>
+    <!--Search Box and Button-->
+    <div class="row" id="searchForm">
+        <div class="columns is-centered">
+            <div class="column is-half">
+                <div class="control">
+                    <label id="searchLabel">Search for an Artist:</label>
+                    <input class="input" type="text" placeholder="" id="music-input" />
+                    <button class="button" id="add-music">Submit</button>
                 </div>
             </div>
         </div>
+        <!--Search Results-->
         <div class="row searchResults">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div id="gif-image"></div>
+                </div>
+            </div>
             <div class="columns is-centered">
                 <div class="column is-half">
                     <div id="music-list"></div>
@@ -41,6 +53,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets\js\app.js"></script>
+    <script src="assets\js\sean.js"></script>
 </body>
 
 </html>
