@@ -44,3 +44,7 @@ audio {
 .container {
   padding: 10px;
 }
+
+#gif-image {
+  text-align: center;
+}
