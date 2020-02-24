@@ -9,7 +9,7 @@ $(document).ready(function() {
     console.log(searchName);
 
     var queryURL =
-      "https://api.giphy.com/v1/gifs/random?api_key=XW8IXY3rbQTNxW06roR2PAhak0yRewph&tag=" + searchName + "&rating=R";
+      "https://api.giphy.com/v1/gifs/random?api_key=XW8IXY3rbQTNxW06roR2PAhak0yRewph&tag=" + searchName + "&rating=PG";
     $.ajax({
       url: queryURL,
       method: "GET"
